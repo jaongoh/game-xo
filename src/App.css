@@ -1,0 +1,44 @@
+body{
+  background-color: #141313;
+  color: white;
+}
+
+h1 { 
+  color: white;
+}
+
+ol {
+  color: white;
+}
+
+.app {
+  text-align: center;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-gap: 5px;
+  margin: 20px;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.status {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.game {
+  display: table;
+  margin: 0 auto;
+}
+
+.button-reeset {
+  margin: 0 10px;
+}
